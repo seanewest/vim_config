@@ -1,7 +1,0 @@
-let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =5
-let g:netrw_dirhist_1='/Users/sam/.vim'
-let g:netrw_dirhist_2='/Users/sam/depot'
-let g:netrw_dirhist_3='/Users/sam/depot/app'
-let g:netrw_dirhist_4='/Users/sam/depot/app/models'
-let g:netrw_dirhist_5='/Library/WebServer/Documents/Connect'

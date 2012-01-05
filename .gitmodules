@@ -16,3 +16,6 @@
 [submodule "bundle/supertab"]
 	path = bundle/supertab
 	url = https://github.com/ervandew/supertab.git
+[submodule "bundle/ruby-test"]
+	path = bundle/ruby-test
+	url = https://github.com/janx/vim-rubytest.git

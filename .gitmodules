@@ -19,3 +19,6 @@
 [submodule "bundle/ruby-test"]
 	path = bundle/ruby-test
 	url = https://github.com/janx/vim-rubytest.git
+[submodule "bundle/vim-powerline"]
+	path = bundle/vim-powerline
+	url = https://github.com/Lokaltog/vim-powerline.git

@@ -13,7 +13,7 @@
     
   Point your ~/.vimrc file to ~/vim_config/.vimrc
   
-    run ln -s ~/vim_config/.vimrc ~/.vimrc
+    ln -s ~/vim_config/.vimrc ~/.vimrc
 
 # Some additional steps you can run (on a mac) are:
   1. Download macvim at https://github.com/b4winckler/macvim/downloads

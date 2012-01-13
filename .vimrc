@@ -1,5 +1,5 @@
 set number
-set autochdir
+"set autochdir
 colorscheme railscasts
 set autoread
 set tabstop=2
@@ -13,4 +13,8 @@ set wildmenu
 :au FileChangedShell * echo "Warning: File changed on disk"
 call pathogen#infect()
 
+set nocompatible " Disable vi-compatibility
+set laststatus=2 " Always show the statusline
+
 filetype plugin indent on 
+

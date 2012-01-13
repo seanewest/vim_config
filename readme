@@ -1,7 +1,0 @@
-How to set up vim to work with this configuration:
-	1.) In your home directory, run git clone git@github.com:sgottfried/vim_config.git
-	2.) cd into this directory, run git submodule init to initialize all of the plugin repos
-	3.) run git submodule update to download all of the plugins
-	4.) run ln -s ~/vim_config ~/.vim
-	5.) run ln -s ~/vim_config/.vimrc ~/.vimrc
-	6.) Now you can load up vim or MacVim and you will get all of my settings and plugins

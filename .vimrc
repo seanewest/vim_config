@@ -30,3 +30,4 @@ set foldnestmax=10      "deepest fold is 10 levels
 set nofoldenable        "dont fold by default
 
 inoremap kj <Esc>
+inoremap jk <Esc>

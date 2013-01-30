@@ -31,3 +31,7 @@ set nofoldenable        "dont fold by default
 
 inoremap kj <Esc>
 inoremap jk <Esc>
+"Added by android-vim:
+set tags+=/Users/sam/.vim/tags
+autocmd Filetype java setlocal omnifunc=javacomplete#Complete
+let g:SuperTabDefaultCompletionType = 'context'

@@ -33,18 +33,6 @@ autocmd Filetype java setlocal completefunc=javacomplete#CompleteParamsInfo
 autocmd Filetype java set tabstop=4
 autocmd Filetype java set shiftwidth=4
 
-autocmd Filetype c set tags+=~/.vim/tags/cpp
-autocmd Filetype c let OmniCpp_NamespaceSearch = 1
-autocmd Filetype c let OmniCpp_GlobalScopeSearch = 1
-autocmd Filetype c let OmniCpp_ShowAccess = 1
-autocmd Filetype c let OmniCpp_ShowPrototypeInAbbr = 1 " show function parameters
-autocmd Filetype c let OmniCpp_MayCompleteDot = 1 " autocomplete after .
-autocmd Filetype c let OmniCpp_MayCompleteArrow = 1 " autocomplete after ->
-autocmd Filetype c let OmniCpp_MayCompleteScope = 1 " autocomplete after ::
-autocmd Filetype c let OmniCpp_DefaultNamespaces = ["std", "_GLIBCXX_STD"]
-autocmd Filetype c set tabstop=4
-autocmd Filetype c set shiftwidth=4
-
 "use spaces instead of tabs
 set expandtab
 

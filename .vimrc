@@ -1,3 +1,4 @@
+au BufWritePost .vimrc so ~/.vimrc
 call pathogen#infect()
 set t_Co=256
 

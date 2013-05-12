@@ -28,11 +28,6 @@ autocmd FileType ruby set omnifunc=rubycomplete#Complete
 autocmd Filetype ruby set tabstop=2
 autocmd Filetype ruby set shiftwidth=2
 
-autocmd Filetype java setlocal omnifunc=javacomplete#Complete 
-autocmd Filetype java setlocal completefunc=javacomplete#CompleteParamsInfo 
-autocmd Filetype java set tabstop=4
-autocmd Filetype java set shiftwidth=4
-
 "use spaces instead of tabs
 set expandtab
 

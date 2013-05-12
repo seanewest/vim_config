@@ -2,8 +2,12 @@ au BufWritePost .vimrc so ~/.vimrc
 call pathogen#infect()
 set t_Co=256
 
-set ignorecase " Searches ignore case
+let mapleader = ","
+
 set incsearch
+set ignorecase " Searches ignore case
+set smartcase
+set hls
 
 runtime bundle/vim-pathogen/autoload/pathogen.vim
 
@@ -45,7 +49,6 @@ autocmd Filetype c set shiftwidth=4
 set expandtab
 
 syntax on
-set hls
 
 set wildmenu
 

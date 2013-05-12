@@ -67,7 +67,6 @@ nmap <Leader>h :noh<CR>
 nmap <Leader>i <C-i>
 nmap <Leader>n :NERDTreeToggle<CR>
 nmap <Leader>o <C-o>
-nmap <Leader>p :CtrlP<CR>
 nmap <Leader>w :w<CR>
 
 set listchars=tab:▸\ ,eol:¬

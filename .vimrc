@@ -72,3 +72,24 @@ inoremap jk <Esc>
 
 let g:ctrlp_map = '<c-p>'
 let g:ctrlp_cmd = 'CtrlP'
+
+set backspace=indent,eol,start
+
+nmap j gj
+nmap k gk
+
+nmap <Leader>E :e!<CR>
+nmap <Leader>e :e 
+nmap <Leader>h :noh<CR>
+nmap <Leader>i <C-i>
+nmap <Leader>n :NERDTreeToggle<CR>
+nmap <Leader>o <C-o>
+nmap <Leader>p :CtrlP<CR>
+nmap <Leader>w :w<CR>
+
+set listchars=tab:▸\ ,eol:¬
+
+highlight NonText guifg=#4a4a59
+highlight SpecialKey guifg=#4a4a59
+
+set mouse=a

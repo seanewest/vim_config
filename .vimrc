@@ -2,8 +2,6 @@ au BufWritePost .vimrc so ~/.vimrc
 call pathogen#infect()
 set t_Co=256
 
-let mapleader = ","
-
 set incsearch
 set ignorecase " Searches ignore case
 set smartcase
@@ -49,9 +47,6 @@ map <C-l> <C-w>l
 set foldmethod=indent   "fold based on indent
 set foldnestmax=10      "deepest fold is 10 levels
 set nofoldenable        "dont fold by default
-
-inoremap kj <Esc>
-inoremap jk <Esc>
 
 let g:ctrlp_map = '<c-p>'
 let g:ctrlp_cmd = 'CtrlP'

@@ -1,28 +1,14 @@
-# How to set up vim to work with this configuration:
+# Install Glorious Vims
+    rm -f ~/.vimrc ~/.gvimrc ~/.vim
     git clone git@github.com:sgottfried/vim_config.git ~
-    cd vim_config
-    
-  Initialize all of the plugin repos
-  
+    cd ~/vim_config
     git submodule init   
     git submodule update
-    
-  Point your ~/.vim directory to vim_config
-  
     ln -s ~/vim_config ~/.vim
-    
-  Point your ~/.vimrc file to ~/vim_config/.vimrc
-  
     ln -s ~/vim_config/.vimrc ~/.vimrc
+    ln -s ~/vim_config/.gvimrc ~/.gvimrc
 
-# Some additional steps you can run (on a mac) are:
-  1. Download macvim at https://github.com/b4winckler/macvim/downloads
-  2. Copy the macvim app to your application directory
-  3. Copy the mvim file to /usr/local (or anywhere on your PATH)
-  4. Now you can run mvim in your project's directory (useful for the ruby-test plugin)
-
-Now you can load up vim or MacVim and you will get all of my settings and plugins
-For more help, see the links for the plugins:
+# Plugins
 
  * fugitive - https://github.com/tpope/vim-fugitive
  * greplace - https://github.com/vim-scripts/greplace.vim

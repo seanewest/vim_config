@@ -4,5 +4,14 @@ if has("gui_macvim")
   map <D-p> <leader>p
 end
 
-map <D-A> :Ack 
+if has("gui_macvim")
+  macmenu &File.New\ Tab key=<nop>
+  map <D-t> <leader>p
+end
+
+if has("gui_macvim")
+  map <D-F> <leader>f
+end
+
+map <D-A> <leader>f 
 set guifont=Monaco:h12

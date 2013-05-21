@@ -20,7 +20,7 @@ set autowriteall
 set autoindent
 filetype plugin indent on 
 
-let g:SuperTabDefaultCompletionType = "<C-X><C-O>"
+let g:SuperTabDefaultCompletionType = "context"
 
 autocmd FileType ruby set omnifunc=rubycomplete#Complete
 autocmd Filetype ruby set tabstop=2

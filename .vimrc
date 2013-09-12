@@ -11,11 +11,14 @@ runtime bundle/vim-pathogen/autoload/pathogen.vim
 
 set number
 
-colorscheme vividchalk 
+colorscheme railscasts 
 set bg=dark
 
 set autoread
 set autowriteall
+
+set tabstop=2
+set shiftwidth=2
 
 set autoindent
 filetype plugin indent on 

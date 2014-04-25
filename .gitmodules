@@ -16,9 +16,6 @@
 [submodule "bundle/ruby-test"]
 	path = bundle/ruby-test
 	url = https://github.com/janx/vim-rubytest.git
-[submodule "bundle/vim-powerline"]
-	path = bundle/vim-powerline
-	url = https://github.com/Lokaltog/vim-powerline.git
 [submodule "bundle/ack"]
 	path = bundle/ack
 	url = git://github.com/mileszs/ack.vim.git
@@ -37,3 +34,9 @@
 [submodule "bundle/Waldo"]
 	path = bundle/Waldo
 	url = https://github.com/jtaby/Waldo
+[submodule "bundle/vim-endwise"]
+	path = bundle/vim-endwise
+	url = https://github.com/tpope/vim-endwise
+[submodule "bundle/vim-airline"]
+	path = bundle/vim-airline
+	url = https://github.com/bling/vim-airline

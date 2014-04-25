@@ -19,6 +19,7 @@ ln -s ~/.vim/.gvimrc ~/.gvimrc
  * [greplace](https://github.com/vim-scripts/greplace.vim)
  * [nerdtree](https://github.com/scrooloose/nerdtree)
  * [supertab](https://github.com/ervandew/supertab.git)
+ * [syntastic](https://github.com/scrooloose/syntastic)
  * [airline](https://github.com/bling/vim-airline)
  * [ruby-test](https://github.com/janx/vim-rubytest)
  * [rails.vim](https://github.com/tpope/vim-rails)

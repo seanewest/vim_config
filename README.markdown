@@ -1,15 +1,17 @@
-# Install Glorious Vims
-    rm -f ~/.vimrc ~/.gvimrc ~/.vim
-    git clone git@github.com:sgottfried/vim_config.git ~
-    cd ~/vim_config
+# Install
+    rm -rf ~/.vimrc ~/.gvimrc ~/.vim
+    git clone git@github.com:seanewest/vim_config.git ~/.vim
+    cd ~/.vim
     git submodule init   
     git submodule update
-    ln -s ~/vim_config ~/.vim
-    ln -s ~/vim_config/.vimrc ~/.vimrc
-    ln -s ~/vim_config/.gvimrc ~/.gvimrc
+    ln -s ~/.vim/.vimrc ~/.vimrc
+    ln -s ~/.vim/.gvimrc ~/.gvimrc
 
 # Plugins
 
+ * ack - https://github.com/mileszs/ack.vim
+ * ctrlp - https://github.com/kien/ctrlp.vim
+ * waldo - https://github.com/jtaby/Waldo
  * fugitive - https://github.com/tpope/vim-fugitive
  * greplace - https://github.com/vim-scripts/greplace.vim
  * nerdtree - https://github.com/scrooloose/nerdtree

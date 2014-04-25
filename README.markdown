@@ -1,11 +1,11 @@
 # Install
-  rm -rf ~/.vimrc ~/.gvimrc ~/.vim
-  git clone git@github.com:seanewest/vim_config.git ~/.vim
-  cd ~/.vim
-  git submodule init   
-  git submodule update
-  ln -s ~/.vim/.vimrc ~/.vimrc
-  ln -s ~/.vim/.gvimrc ~/.gvimrc
+    rm -rf ~/.vimrc ~/.gvimrc ~/.vim
+    git clone git@github.com:seanewest/vim_config.git ~/.vim
+    cd ~/.vim
+    git submodule init   
+    git submodule update
+    ln -s ~/.vim/.vimrc ~/.vimrc
+    ln -s ~/.vim/.gvimrc ~/.gvimrc
 
 # Plugins
 

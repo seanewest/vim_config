@@ -1,4 +1,4 @@
-"Fairly decent" vim dotfiles
+A "Fairly decent" vim setup
 =============
 ![Screen Shot](./screen_shot.png)
 

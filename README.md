@@ -1,6 +1,9 @@
+"Fairly decent" vim dotfiles
+=============
+![Screen Shot](./screen_shot.png)
+
 Install
 =============
-
 ```
 rm -rf ~/.vimrc ~/.gvimrc ~/.vim
 git clone git@github.com:seanewest/vim_config.git ~/.vim
@@ -11,7 +14,8 @@ ln -s ~/.vim/.vimrc ~/.vimrc
 ln -s ~/.vim/.gvimrc ~/.gvimrc
 ```
 
-# Plugins
+Plugins
+=============
 
  * [ack](https://github.com/mileszs/ack.vim)
  * [ctrlp](https://github.com/kien/ctrlp.vim)

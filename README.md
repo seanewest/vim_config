@@ -6,7 +6,7 @@ Install
 =============
 ```
 rm -rf ~/.vimrc ~/.gvimrc ~/.vim
-git clone git@github.com:seanewest/vim_config.git ~/.vim
+git clone https://github.com/seanewest/vim_config.git ~/.vim
 cd ~/.vim
 git submodule init   
 git submodule update

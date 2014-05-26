@@ -5,13 +5,8 @@ A "Fairly decent" vim setup
 Install
 =============
 ```
-rm -rf ~/.vimrc ~/.gvimrc ~/.vim
-git clone https://github.com/seanewest/vim_config.git ~/.vim
-cd ~/.vim
-git submodule init   
-git submodule update
-ln -s ~/.vim/.vimrc ~/.vimrc
-ln -s ~/.vim/.gvimrc ~/.gvimrc
+git clone --recursive https://github.com/seanewest/vim_config.git ~/.vim
+ln -s ~/.vim/.vimrc ~/.vim/.gvimrc ~/
 ```
 
 Plugins

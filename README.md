@@ -5,6 +5,7 @@ A "Fairly decent" vim setup
 Install
 =============
 ```
+rm -rf ~/.vim ~/.vimrc ~/.gvimrc
 git clone --recursive https://github.com/seanewest/vim_config.git ~/.vim
 ln -s ~/.vim/.vimrc ~/.vim/.gvimrc ~/
 ```

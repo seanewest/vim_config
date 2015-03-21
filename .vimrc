@@ -23,11 +23,11 @@ set shiftwidth=2
 set autoindent
 filetype plugin indent on 
 
-let g:SuperTabDefaultCompletionType = "context"
-
-autocmd FileType ruby set omnifunc=rubycomplete#Complete
 autocmd Filetype ruby set tabstop=2
 autocmd Filetype ruby set shiftwidth=2
+
+autocmd Filetype javascript set tabstop=4
+autocmd Filetype javascript set shiftwidth=4
 
 "use spaces instead of tabs
 set expandtab
@@ -39,33 +39,28 @@ set wildmenu
 :au FileChangedShell * echo "Warning: File changed on disk"
 
 set nocompatible " Disable vi-compatibility
-set laststatus=2 " Always show the statusline
-
-map <C-h> <C-w>h
-map <C-j> <C-w>j
-map <C-k> <C-w>k
-map <C-l> <C-w>l
 
 "folding settings
 set foldmethod=indent   "fold based on indent
 set foldnestmax=10      "deepest fold is 10 levels
 set nofoldenable        "dont fold by default
 
-let g:ctrlp_map = '<c-p>'
+let g:ctrlp_map = '<C-p>'
+nmap <Leader>f <C-f>
 let g:ctrlp_cmd = 'CtrlP'
 
 set backspace=indent,eol,start
 
-nmap j gj
-nmap k gk
+let mapleader = ","
+imap <Leader><Leader> <ESC>
 
-nmap <Leader>E :e!<CR>
-nmap <Leader>e :e 
-nmap <Leader>h :noh<CR>
-nmap <Leader>i <C-i>
-nmap <Leader>n :NERDTreeToggle<CR>
-nmap <Leader>o <C-o>
+nmap <Leader>f <C-f>
+nmap <Leader>t <C-p>
+nmap <Leader>; :
+nmap <Leader>b <C-b>
 nmap <Leader>w :w<CR>
+nmap <Leader>q :q<CR>
+nmap <Leader>e :e 
 
 set listchars=tab:▸\ ,eol:¬
 

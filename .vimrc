@@ -45,8 +45,7 @@ set foldmethod=indent   "fold based on indent
 set foldnestmax=10      "deepest fold is 10 levels
 set nofoldenable        "dont fold by default
 
-let g:ctrlp_map = '<C-p>'
-nmap <Leader>f <C-f>
+let g:ctrlp_map = '<Leader>t'
 let g:ctrlp_cmd = 'CtrlP'
 
 set backspace=indent,eol,start
@@ -55,12 +54,16 @@ let mapleader = ","
 imap <Leader><Leader> <ESC>
 
 nmap <Leader>f <C-f>
-nmap <Leader>t <C-p>
 nmap <Leader>; :
 nmap <Leader>b <C-b>
 nmap <Leader>w :w<CR>
 nmap <Leader>q :q<CR>
 nmap <Leader>e :e 
+
+"up/down
+nmap <C-p> <C-y>
+"C-n was move cursor down
+nmap <C-n> <C-e>
 
 set listchars=tab:▸\ ,eol:¬
 

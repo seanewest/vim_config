@@ -12,14 +12,6 @@ set hls " highlight search matches
 
 set number "show number line
 
-"read and write file automatically
-"autowrite does't currently work
-"need to autowrite when lose focus etc
-set autoread
-set autowriteall
-au FocusGained,BufEnter * :silent! !
-au FocusLost,WinLeave * :silent! w
-
 set autoindent
 filetype plugin indent on 
 
@@ -43,8 +35,6 @@ map Y y$
 let mapleader = ","
 imap <Leader><Leader> <ESC>
 "why does this beep?
-map <Leader>n G
-map <Leader>p gg
 map <Leader>f <C-f>
 map <Leader>b <C-b>
 map <Leader>. <C-^>
@@ -66,14 +56,3 @@ map <Leader>/ :noh
 "next immediate line even if word wrap is on
 nmap j gj
 nmap k gk
-
-if (&term == "pcterm" || &term == "win32")
-  set term=xterm t_Co=256
-  let &t_AB="\e[48;5;%dm"
-  let &t_AF="\e[38;5;%dm"
-  set termencoding=utf8
-  set nocompatible
-  inoremap <Char-0x07F> <BS>
-  nnoremap <Char-0x07F> <BS>
-  set background=dark
-endif
